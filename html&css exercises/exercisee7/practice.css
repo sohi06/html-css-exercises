@@ -2,6 +2,9 @@ header{
     position:sticky;
     top: 0px;
 }
+body{
+    background-color: #96aced;
+}
 *{
     margin: 0px;
     padding: 0px;
@@ -10,8 +13,8 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    border: 0.5 px solid gray;
-    background-color: #f0eded;
+    border: 0.5 px solid rgb(125, 125, 241);
+    background-color: #496cf7;
 }
 .right{
     display: flex;
@@ -44,10 +47,11 @@ text-transform: capitalize;
 }
 .card-container{
     display: flex;
+    justify-content: center;
 }
 
  .card{
-    border: 2px solid gray;
+   
     border-radius: 15px;
     width: 310px;
     height: 450px;
@@ -79,5 +83,58 @@ text-transform: capitalize;
 .btn:hover{
     background-color: #8db8a2;
 }
+.container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    gap: 34px;
+    justify-content: center;
+    margin: 40px;
+}
+.box{
+ 
+    display: flex;
+    flex-direction: column;
+    background-color: #efebeb;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    padding: 23px;
+}
+.box .heading {
+    font-size: 32px;
+   
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Segoe UI',sans-serif;
+    margin: 50px 20px 20px 20px;
 
+}
+.green{
+    border: 1px;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(17, 250, 17);
+    margin:  20px 20px 10px 20px;
+    color:#faf4f4;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.blue{
+    border: 1px;
+    border-radius: 15px;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(30, 144, 245);
+ 
+    color:#faf4f4;
+    text-transform: uppercase;
+    font-weight: bold;
+padding: 14px 16px;
+}
 
+@media screen and (max-width: 1145px) {
+    .container{ 
+        grid-template-columns: 1fr; 
+    }}
