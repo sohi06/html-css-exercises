@@ -1,0 +1,83 @@
+header{
+    position:sticky;
+    top: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 0.5 px solid gray;
+    background-color: #f0eded;
+}
+.right{
+    display: flex;
+    
+}
+.right ul{
+    display: flex;
+    gap: 23px;
+  
+}
+.right ul li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+text-transform: capitalize;
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin: 50px 45px;
+}
+.heading div:first-child{
+    font-size: 30px;
+}
+.heading .para1{
+    margin: 10px;
+}
+.card-container{
+    display: flex;
+}
+
+ .card{
+    border: 2px solid gray;
+    border-radius: 15px;
+    width: 310px;
+    height: 450px;
+   text-transform: capitalize;
+    background-color: #faf4f4;
+    margin: 45px;
+
+ }
+ .card-pic{
+    padding: 5px;
+ }
+ .card-pic img {
+  
+    border-radius: 15px;
+
+ }
+ .card .card-heading{
+    margin: 15px 15px;
+ }
+.para{
+    margin: 15px 15px;
+}
+.card button{
+    margin: 2px 2px 2px 200px;
+    border: double;
+    background-color: #1b6456;
+    color: #faf4f4;
+}
+.btn:hover{
+    background-color: #8db8a2;
+}
+
+
